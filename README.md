@@ -43,6 +43,10 @@ The AWS IoT Weather Monitoring System is designed to collect and visualize real-
 
 The system architecture consists of the ESP32 S2 microcontroller for data collection, AWS IoT Core for data processing and storage, and a web application for real-time data visualization and user interaction.
 
+![System Architecture](https://github.com/saptajitbanerjee/AWS-IoT-Weather-Monitoring-System/blob/main/full_stack_architecture.png)
+
+![Full Stack Architecture](https://github.com/saptajitbanerjee/AWS-IoT-Weather-Monitoring-System/blob/main/system_architecture.png)
+
 ## Project Implementation
 
 ### ESP32 Implementation
