@@ -1,0 +1,31 @@
+<head>
+    <title>IoT Dashboard Register</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<div style="display: flex;justify-content:center;font-family:Verdana, Geneva, Tahoma, sans-serif">
+    <div id="register" style="background-color:gold">
+        <form action="/register" method="POST" style="background-color:blue;color:white">
+            <h3 style="text-align: center;">Register</h3>
+            <!--div>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required>
+            </div-->
+            <br>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <br>
+            <div style="text-align: center;">
+                <button type="submit">Register <i class="fa fa-user-plus" aria-hidden="true"></i></button>
+            </div>
+        </form>
+        <a style="text-decoration:none" href="/login">Login</a>
+    </div>
+</div>

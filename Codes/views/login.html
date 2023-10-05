@@ -1,0 +1,28 @@
+<head>
+    <title>IoT Dashboard Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<!--h1>Login</h1-->
+<div id="login" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <div style="display:flex;flex-direction:column;justify-content:center;border:2px solid black;margin:5px;padding:10px;border-radius:10px;background-color:gold">
+        <form action="/login" method="POST">
+            <h3>Login</h3>
+            <% if (messages.error) { %>
+                <%= messages.error %>
+                    <% } %>
+                        <div>
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div><br>
+                        <div>
+                            <label for="password">Password</label><br>
+                            <input type="password" id="password" name="password" placeholder="Your Password" required>
+                        </div><br>
+                        <div style="text-align: center;">
+                            <button type="submit">Login <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+                        </div>
+        </form>
+        <a style="text-decoration:none;color:blue" href="/register">Register</a>
+    </div>
+</div>
