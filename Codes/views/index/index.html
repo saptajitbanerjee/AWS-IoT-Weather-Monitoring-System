@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script>
+        var exports = {};
+    </script>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="index/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Asynchronous Weather Data with AWS Websockets</h1>
+        <div class="show">
+            <h4>Current Data</h4>
+            <p>Temperature: <span id="d1">NaN</span> &#8451;</p>
+            <p>Humidity: <span id="d2">NaN</span> %</p>
+            <p>Pressure: <span id="d3">NaN</span> hPa</p>
+            <p>Altitude: <span id="d4">NaN</span> m</p>
+            <button id="csv">Download <i class="fa-solid fa-file-csv"></i></button>
+            <form action="/logout?_method=DELETE" method="POST">
+                <button type="submit" id="logout">Log Out <i class="fa fa-sign-out" aria-hidden="true"></i></button>
+            </form>
+        </div>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Line Chart of ESP32 Data</strong></h3>
+            </div>
+            <div class="panel-body">
+                <div class="graph" id="container1"></div>
+                <div class="graph" id="container2"></div>
+                <div class="graph" id="container3"></div>
+                <div class="graph" id="container4"></div>
+            </div>
+        </div>
+    </div>
+    <script src="index/bundle.js"></script>
+    <script src="index/auto-logout.js"></script>
+    <!--script src="./main.js"></script-->
+    <!--script src="./read.js"></script-->
+</body>
+
+</html>

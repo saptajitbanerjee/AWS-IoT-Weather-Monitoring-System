@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: wavy;
+}
+
+p {
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.show {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px black solid;
+    border-radius: 10px;
+    width: 25%;
+    margin: auto
+}
+
+.graph {
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+button {
+    margin: 10px
+}
+
+#csv {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+
+#csv:hover {
+    background-color: lightgreen;
+}
+
+#logout {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#logout:hover {
+    background-color: #ff726f;
+}
+
+i {
+    font-size: 20px;
+}
