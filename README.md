@@ -75,4 +75,4 @@ The AWS IoT Weather Monitoring System demonstrates the potential of combining Io
 
 ## Resources
 
-- [GitHub Repository](https://github.com/yourusername/yourrepository)
+- [GitHub Repository](https://github.com/saptajitbanerjee/AWS-IoT-Weather-Monitoring-System)
