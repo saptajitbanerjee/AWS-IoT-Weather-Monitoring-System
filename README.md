@@ -28,7 +28,7 @@ The AWS IoT Weather Monitoring System is designed to collect and visualize real-
 
 - **Web Application:** Offers real-time weather data visualization through interactive line charts and ensures secure user access through Passport.js authentication.
 
-![Video](https://github.com/saptajitbanerjee/AWS-IoT-Weather-Monitoring-System/blob/3997891db2d32e55f54fa2d25c5c971897fa51e0/video.mp4)
+[Watch the Project Video](https://youtu.be/cpGVJlyNlqM)
 
 ## Hardware and Software Used
 
