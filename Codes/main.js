@@ -13,8 +13,8 @@ const { default: csvDownload } = require('json-to-csv-export');
 let awsConfig = {
     "region": "ap-south-1",
     "endpoint": "http://dynamodb.ap-south-1.amazonaws.com",
-    "accessKeyId": "AKIATNYGUNULOGNRE4M6",
-    "secretAccessKey": "/NBkI/Djkcvs6IH+xXPv9fP8y5FDJ/hmEKooYaCt"
+    "accessKeyId": "YOUR_ACCESS_KEY_ID",
+    "secretAccessKey": "YOUR_SECRET_ACCESS_KEY"
 };
 
 AWS.config.update(awsConfig);
